@@ -2,6 +2,12 @@
 
 O projeto tem por finalizada decodificar as notificações enviadas pelos rastreadores. Cada notificação recebida possui um código, esse código é o identificador da notificação. O projeto vai receber esse código e retornar um objeto descrevendo essa notificação.
 
+## Instalação
+
+```bash
+npm install --save git+ssh://@github.com:rx30i/decodificar-notificacao.git
+```
+
 ## Exemplo notificação.
 
 ```bash
