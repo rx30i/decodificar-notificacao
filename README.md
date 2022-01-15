@@ -28,11 +28,10 @@ const resposta = decodificarNotificacao.decodificar('fonteDeEnergiaPrincipalDesc
 
 /** Resposta */
 {
+  titulo   : 'Desconectado da fonte de alimentação principal.',
   codigo   : 'fonteDeEnergiaPrincipalDesconectada',
   categoria: 'emergencia',
   descricao: 'Desconectado da fonte de alimentação principal.',
 }
 
 ```
-
-
