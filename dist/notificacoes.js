@@ -30,7 +30,7 @@ exports.notificacoes.set('antiTheft', {
     titulo: 'Emergency by anti-theft.',
     codigo: 'antiTheft',
     categoria: 'emergencia',
-    descricao: 'Emergency by anti-theft.',
+    descricao: 'Essa notificação informa que o condutor não pressionou o botão antifurto dentro do tempo configurado.',
 });
 exports.notificacoes.set('bateriaBackupComErro', {
     titulo: 'Bateria do rastreador com erro.',
@@ -42,31 +42,31 @@ exports.notificacoes.set('bateriaBackupDesconectada', {
     titulo: 'Rastreador desconectado da sua bateria interna.',
     codigo: 'bateriaBackupDesconectada',
     categoria: 'aviso',
-    descricao: 'Rastreador desconectado da bateria de backup.',
+    descricao: 'Essa notificação informa que o rastreador foi desconectado da bateria de backup, o rastreador tem uma bateria interna, uma bateria própria, essa é a bateria de backup.',
 });
 exports.notificacoes.set('bateriaBackupConectada', {
     titulo: 'Rastreador reconectado sua bateria interna.',
     codigo: 'bateriaBackupConectada',
     categoria: 'aviso',
-    descricao: 'Rastreador conectado a bateria de backup.',
+    descricao: 'Essa notificação informa que o rastreador foi conectado a bateria de backup, o rastreador tem uma bateria interna, uma bateria própria, essa é a bateria de backup..',
 });
 exports.notificacoes.set('bateriaVeiculoBaixa', {
     titulo: 'A bateria do veículo está baixa, o rastreador irá hibernar.',
     codigo: 'bateriaVeiculoBaixa',
     categoria: 'aviso',
-    descricao: 'A bateria do veículo está baixa, o rastreador irá hibernar.',
+    descricao: 'Essa notificação informa que a bateria do veículo está baixa, o rastreador vai entrar no modo de sono profundo, vai hibernar.',
 });
 exports.notificacoes.set('bateriaInternaBaixa', {
     titulo: 'A bateria do rastreador está baixa, o rastreador será desligado.',
     codigo: 'bateriaInternaBaixa',
     categoria: 'emergencia',
-    descricao: 'A bateria do rastreador está baixa, o rastreador será desligado.',
+    descricao: 'Essa notificação informa que a bateria do rastreador está baixa, o rastreador será desligado.',
 });
 exports.notificacoes.set('botaoPanicoLigado', {
     titulo: 'Botão de pânico pressionado.',
     codigo: 'botaoPanicoLigado',
     categoria: 'emergencia',
-    descricao: 'Botão de pânico pressionado.',
+    descricao: 'Essa notificação informa que o botão de pânico foi pressionado. Esse botão de pânico é uma forma discreta e simples do condutor do veículo solicitar ajuda em casos de emergência.',
 });
 exports.notificacoes.set('colisaoVeiculo', {
     titulo: 'Ocorreu uma colisão com o veículo.',
@@ -78,48 +78,54 @@ exports.notificacoes.set('fonteDeEnergiaPrincipalConectada', {
     titulo: 'Conectado à fonte de alimentação principal.',
     codigo: 'fonteDeEnergiaPrincipalConectada',
     categoria: 'aviso',
-    descricao: 'Conectado à fonte de alimentação principal.',
+    descricao: 'Essa notificação informa que o rastreador foi reconectado à fonte de alimentação externa.',
 });
 exports.notificacoes.set('fonteDeEnergiaPrincipalDesconectada', {
     titulo: 'Desconectado da fonte de alimentação principal.',
     codigo: 'fonteDeEnergiaPrincipalDesconectada',
     categoria: 'emergencia',
-    descricao: 'Desconectado da fonte de alimentação principal.',
+    descricao: 'Essa notificação informa que o rastreador foi removido da fonte de alimentação externa. Se o rastreador está instalado em um veículo, o recebimento dessa notificação vai informa que o rastreador foi removido desse veículo.',
 });
 exports.notificacoes.set('ignicaoDesligada', {
     titulo: 'Ignição desligada.',
     codigo: 'ignicaoDesligada',
     categoria: 'aviso',
-    descricao: 'Ignição desligada.',
+    descricao: 'Essa notificação informa que a ignição do veículo foi desligada.',
 });
 exports.notificacoes.set('ignicaoLigada', {
     titulo: 'Ignição ligada.',
     codigo: 'ignicaoLigada',
     categoria: 'aviso',
-    descricao: 'Ignição ligada.',
+    descricao: 'Essa notificação informa que a ignição do veículo foi ligada.',
 });
 exports.notificacoes.set('jammingDetectado', {
     titulo: 'Jamming detectado.',
     codigo: 'jammingDetectado',
     categoria: 'emergencia',
-    descricao: 'Jamming detectado.',
+    descricao: 'Essa notificação informa que o Jamming foi detectado, um bloqueador de sinal.',
 });
 exports.notificacoes.set('movimento', {
     titulo: 'O rastreador está em movimento.',
     codigo: 'movimento',
     categoria: 'emergencia',
-    descricao: 'O rastreador está em movimento.',
+    descricao: 'Essa notificação informa que o rastreador está em movimento.',
 });
 exports.notificacoes.set('sleepModeEnter', {
-    titulo: 'Enter the Deep Sleep Mode.',
+    titulo: 'O rastreador entrou no modo de sono profundo, hibernou.',
     codigo: 'sleepModeEnter',
     categoria: 'aviso',
-    descricao: 'Enter the Deep Sleep Mode.',
+    descricao: 'Essa notificação informa que o rastreador entrou no modo de sono profundo, ele hibernou.',
 });
 exports.notificacoes.set('sleepModeExit', {
-    titulo: 'Exit from the Deep Sleep Mode.',
+    titulo: 'O rastreador saiu no modo de sono profundo, acordou.',
     codigo: 'sleepModeExit',
     categoria: 'aviso',
-    descricao: 'Exit from the Deep Sleep Mode.',
+    descricao: 'Essa notificação informa que o rastreador saiu do modo de sono profundo, ele acordou.',
+});
+exports.notificacoes.set('shocked', {
+    titulo: 'O rastreador está em movimento com a ignição desligada.',
+    codigo: 'shocked',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador está em movimento com a ignição desligada.',
 });
 //# sourceMappingURL=notificacoes.js.map
