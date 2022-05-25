@@ -128,4 +128,40 @@ exports.notificacoes.set('shocked', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que o rastreador está em movimento com a ignição desligada.',
 });
+exports.notificacoes.set('excedeuVelPermitida', {
+    titulo: 'O rastreador ultrapassou a velocidade permitida.',
+    codigo: 'excedeuVelPermitida',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador ultrapassou a velocidade permitida.',
+});
+exports.notificacoes.set('voltouAVelPermitida', {
+    titulo: 'O rastreador voltou a velocidade permitida.',
+    codigo: 'voltouAVelPermitida',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador voltou a velocidade permitida.',
+});
+exports.notificacoes.set('entrouCerca', {
+    titulo: 'O rastreador entrou na cerca {NOME_CERCA}.',
+    codigo: 'entrouCerca',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador entrou na cerca.',
+});
+exports.notificacoes.set('saiuCerca', {
+    titulo: 'O rastreador saiu da cerca {NOME_CERCA}.',
+    codigo: 'entrouCerca',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador saiu da cerca.',
+});
+exports.notificacoes.set('iButtonInserido', {
+    titulo: 'Falta adicionar o texto para essa notificação.',
+    codigo: 'iButtonInserido',
+    categoria: 'aviso',
+    descricao: 'Falta adicionar o texto para essa notificação.',
+});
+exports.notificacoes.set('iButtonRemovido', {
+    titulo: 'Falta adicionar o texto para essa notificação.',
+    codigo: 'iButtonRemovido',
+    categoria: 'aviso',
+    descricao: 'Falta adicionar o texto para essa notificação.',
+});
 //# sourceMappingURL=notificacoes.js.map
