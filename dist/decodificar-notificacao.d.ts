@@ -1,4 +1,5 @@
+import { CodigoNotificacao } from './codico-notificacao';
 import { INotificacao } from './contracts/i-notificacao';
 export declare class DecodificarNotificacao {
-    decodificar(codigoNotificacao: string): INotificacao;
+    static decodificar(codigoNotificacao: CodigoNotificacao): INotificacao;
 }
