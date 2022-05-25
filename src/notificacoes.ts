@@ -173,7 +173,7 @@ notificacoes.set('entrouCerca', {
 
 notificacoes.set('saiuCerca', {
   titulo   : 'O rastreador saiu da cerca {NOME_CERCA}.',
-  codigo   : 'entrouCerca',
+  codigo   : 'saiuCerca',
   categoria: 'aviso',
   descricao: 'Essa notificação informa que o rastreador saiu da cerca.',
 });
