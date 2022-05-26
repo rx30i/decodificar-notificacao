@@ -191,3 +191,45 @@ notificacoes.set('iButtonRemovido', {
   categoria: 'aviso',
   descricao: 'Falta adicionar o texto para essa notificação.',
 });
+
+notificacoes.set('entrada1Ativa', {
+  titulo   : 'A entrada 1 do rastreador está ativa.',
+  codigo   : 'entrada1Ativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a entrada 1 do rastreador está ativa.',
+});
+
+notificacoes.set('entrada1Inativa', {
+  titulo   : 'A entrada 1 do rastreador está inativa.',
+  codigo   : 'entrada1Inativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a entrada 1 do rastreador está inativa.',
+});
+
+notificacoes.set('entrada2Ativa', {
+  titulo   : 'A entrada 2 do rastreador está ativa.',
+  codigo   : 'entrada2Ativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a entrada 2 do rastreador está ativa.',
+});
+
+notificacoes.set('entrada2Inativa', {
+  titulo   : 'A entrada 2 do rastreador está inativa.',
+  codigo   : 'entrada2Inativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a entrada 2 do rastreador está inativa.',
+});
+
+notificacoes.set('entrada3Ativa', {
+  titulo   : 'A entrada 3 do rastreador está ativa.',
+  codigo   : 'entrada3Ativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a entrada 3 do rastreador está ativa.',
+});
+
+notificacoes.set('entrada3Inativa', {
+  titulo   : 'A entrada 3 do rastreador está inativa.',
+  codigo   : 'entrada3Inativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a entrada 3 do rastreador está inativa.',
+});
