@@ -1,4 +1,4 @@
-declare type categoria = 'aviso' | 'emergencia';
+type categoria = 'aviso' | 'emergencia';
 export interface INotificacao {
     titulo: string;
     descricao: string;
