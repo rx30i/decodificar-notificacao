@@ -2,6 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.notificacoes = void 0;
 exports.notificacoes = new Map();
+exports.notificacoes.set('normal', {
+    titulo: 'Nenhuma notificação emitida.',
+    descricao: 'Nenhuma notificação emitida.',
+    codigo: 'normal',
+    categoria: 'aviso',
+});
 exports.notificacoes.set('naoIntegrado', {
     titulo: 'Alerta não integrado.',
     descricao: 'Alerta não integrado.',

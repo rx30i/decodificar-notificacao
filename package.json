@@ -1,6 +1,6 @@
 {
   "name": "decodificar-notificacao",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,6 +16,6 @@
     "@typescript-eslint/parser": "^5.8.1",
     "eslint": "^8.6.0",
     "eslint-plugin-adonis": "^2.1.0",
-    "typescript": "^4.8.4"
+    "typescript": "^5.1.3"
   }
 }

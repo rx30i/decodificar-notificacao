@@ -3,6 +3,13 @@ import { INotificacao } from './contracts/i-notificacao';
 
 export const notificacoes: Map<string, INotificacao> = new Map();
 
+notificacoes.set('normal', {
+  titulo   : 'Nenhuma notificação emitida.',
+  descricao: 'Nenhuma notificação emitida.',
+  codigo   : 'normal',
+  categoria: 'aviso',
+});
+
 notificacoes.set('naoIntegrado', {
   titulo   : 'Alerta não integrado.',
   descricao: 'Alerta não integrado.',

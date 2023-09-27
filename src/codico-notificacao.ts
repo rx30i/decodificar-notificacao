@@ -31,4 +31,5 @@ export type CodigoNotificacao =
   |'saiuCerca'
   |'movimento'
   |'antiTheft'
+  |'normal'
   |'shocked';
