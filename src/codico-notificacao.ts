@@ -8,6 +8,7 @@ export type CodigoNotificacao =
   |'antenaGpsReconectada'
   |'bateriaBackupComErro'
   |'voltouAVelPermitida'
+  |'rastreadorDesligado'
   |'excedeuVelPermitida'
   |'bateriaVeiculoBaixa'
   |'bateriaInternaBaixa'

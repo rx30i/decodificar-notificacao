@@ -54,7 +54,7 @@ exports.notificacoes.set('bateriaBackupConectada', {
     titulo: 'Rastreador reconectado sua bateria interna.',
     codigo: 'bateriaBackupConectada',
     categoria: 'aviso',
-    descricao: 'Essa notificação informa que o rastreador foi conectado a bateria de backup, o rastreador tem uma bateria interna, uma bateria própria, essa é a bateria de backup..',
+    descricao: 'Essa notificação informa que o rastreador foi conectado a bateria de backup, o rastreador tem uma bateria interna, uma bateria própria, essa é a bateria de backup.',
 });
 exports.notificacoes.set('bateriaVeiculoBaixa', {
     titulo: 'A bateria do veículo está baixa, o rastreador irá hibernar.',
@@ -200,10 +200,10 @@ exports.notificacoes.set('entrada3Ativa', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que a entrada 3 do rastreador está ativa.',
 });
-exports.notificacoes.set('entrada3Inativa', {
-    titulo: 'A entrada 3 do rastreador está inativa.',
+exports.notificacoes.set('rastreadorDesligado', {
+    titulo: 'Comando executado, o rastreador será desligado',
     codigo: 'entrada3Inativa',
-    categoria: 'aviso',
-    descricao: 'Essa notificação informa que a entrada 3 do rastreador está inativa.',
+    categoria: 'emergencia',
+    descricao: 'Essa notificação informa que o rastreador será desligado devido ao comando recebido.',
 });
 //# sourceMappingURL=notificacoes.js.map
