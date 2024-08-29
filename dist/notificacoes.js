@@ -104,6 +104,18 @@ exports.notificacoes.set('ignicaoLigada', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que a ignição do veículo foi ligada.',
 });
+exports.notificacoes.set('ignicaoLigadaSis', {
+    titulo: 'Ignição ligada.',
+    codigo: 'ignicaoLigadaSis',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a ignição do veículo foi ligada.',
+});
+exports.notificacoes.set('ignicaoDesligadaSis', {
+    titulo: 'Ignição desligada.',
+    codigo: 'ignicaoDesligadaSis',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a ignição do veículo foi desligada.',
+});
 exports.notificacoes.set('jammingDetectado', {
     titulo: 'Jamming detectado.',
     codigo: 'jammingDetectado',

@@ -15,6 +15,8 @@ export type CodigoNotificacao =
   |'botaoPanicoLigado'
   |'antenaGpsEmCurto'
   |'colisaoVeiculo'
+  |'ignicaoLigadaSis'
+  |'ignicaoDesligadaSis'
   |'ignicaoDesligada'
   |'ignicaoLigada'
   |'jammingDetectado'
