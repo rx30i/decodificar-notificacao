@@ -26,6 +26,12 @@ exports.notificacoes.set('antenaGpsReconectada', {
     categoria: 'aviso',
     descricao: 'Antena GPS foi reconectada.',
 });
+exports.notificacoes.set('problemaGPS', {
+    titulo: 'Problema com o GPS.',
+    codigo: 'problemaGPS',
+    categoria: 'aviso',
+    descricao: 'GPS não está funcionando corretamente no momento.',
+});
 exports.notificacoes.set('antenaGpsEmCurto', {
     titulo: 'Antena GPS em curto.',
     codigo: 'antenaGpsEmCurto',
