@@ -218,6 +218,24 @@ exports.notificacoes.set('entrada3Ativa', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que a entrada 3 do rastreador está ativa.',
 });
+exports.notificacoes.set('saida1Ativa', {
+    titulo: 'A saida 1 do rastreador está ativa.',
+    codigo: 'saida1Ativa',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a saida 1 do rastreador está ativa.',
+});
+exports.notificacoes.set('saida2Ativa', {
+    titulo: 'A saida 2 do rastreador está ativa.',
+    codigo: 'saida2Ativa',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a saida 2 do rastreador está ativa.',
+});
+exports.notificacoes.set('saida3Ativa', {
+    titulo: 'A saida 3 do rastreador está ativa.',
+    codigo: 'saida3Ativa',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a saida 3 do rastreador está ativa.',
+});
 exports.notificacoes.set('rastreadorDesligado', {
     titulo: 'Comando executado, o rastreador será desligado',
     codigo: 'entrada3Inativa',
