@@ -272,4 +272,16 @@ exports.notificacoes.set('desbloqueado', {
     categoria: 'emergencia',
     descricao: 'Comando de desbloqueado executado, rastreável desbloqueado.',
 });
+exports.notificacoes.set('aceleracaoBrusca', {
+    titulo: 'Aceleração brusca',
+    codigo: 'aceleracaoBrusca',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o condutor acelerou o veículo de forma brusca.',
+});
+exports.notificacoes.set('freadaBrusca', {
+    titulo: 'Freada brusca',
+    codigo: 'freadaBrusca',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o condutor freou bruscamente o veículo.',
+});
 //# sourceMappingURL=notificacoes.js.map

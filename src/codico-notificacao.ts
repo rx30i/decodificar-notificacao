@@ -22,6 +22,8 @@ export type CodigoNotificacao =
   |'jammingDetectado'
   |'iButtonInserido'
   |'iButtonRemovido'
+  |'aceleracaoBrusca'
+  |'freadaBrusca'
   |'sleepModeEnter'
   |'sleepModeExit'
   |'entrada1Ativa'
