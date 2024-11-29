@@ -261,3 +261,17 @@ notificacoes.set('rastreadorDesligado', {
   categoria: 'emergencia',
   descricao: 'Essa notificação informa que o rastreador será desligado devido ao comando recebido.',
 });
+
+notificacoes.set('bloqueado', {
+  titulo   : 'Comando de bloqueio executado',
+  codigo   : 'bloqueado',
+  categoria: 'emergencia',
+  descricao: 'Comando de bloqueio executado, rastreável bloqueado.',
+});
+
+notificacoes.set('desbloqueado', {
+  titulo   : 'Comando de desbloqueado executado',
+  codigo   : 'desbloqueado',
+  categoria: 'emergencia',
+  descricao: 'Comando de desbloqueado executado, rastreável desbloqueado.',
+});

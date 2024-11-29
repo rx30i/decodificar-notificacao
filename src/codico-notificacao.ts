@@ -30,6 +30,8 @@ export type CodigoNotificacao =
   |'entrada2Inativa'
   |'entrada3Ativa'
   |'entrada3Inativa'
+  |'desbloqueado'
+  |'bloqueado'
   |'problemaGPS'
   |'entrouCerca'
   |'saiuCerca'
