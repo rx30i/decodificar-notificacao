@@ -276,6 +276,27 @@ notificacoes.set('saida3Ativa', {
   descricao: 'Essa notificação informa que a saida 3 do rastreador está ativa.',
 });
 
+notificacoes.set('saida1Inativa', {
+  titulo   : 'A saida 1 do rastreador está inativa.',
+  codigo   : 'saida1Inativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a saida 1 do rastreador está inativa.',
+});
+
+notificacoes.set('saida2Inativa', {
+  titulo   : 'A saida 2 do rastreador está inativa.',
+  codigo   : 'saida2Inativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a saida 2 do rastreador está inativa.',
+});
+
+notificacoes.set('saida3Inativa', {
+  titulo   : 'A saida 3 do rastreador está inativa.',
+  codigo   : 'saida3Inativa',
+  categoria: 'aviso',
+  descricao: 'Essa notificação informa que a saida 3 do rastreador está inativa.',
+});
+
 notificacoes.set('rastreadorDesligado', {
   titulo   : 'Comando executado, o rastreador será desligado',
   codigo   : 'entrada3Inativa',
