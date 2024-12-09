@@ -2,6 +2,7 @@ export type CodigoNotificacao =
   'naoIntegrado'
   |'fonteDeEnergiaPrincipalConectada'
   |'fonteDeEnergiaPrincipalDesconectada'
+  |'movimentoIgnicaoDesligada'
   |'bateriaBackupDesconectada'
   |'bateriaBackupConectada'
   |'antenaGpsDesconectada'

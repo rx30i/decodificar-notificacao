@@ -134,6 +134,12 @@ exports.notificacoes.set('movimento', {
     categoria: 'emergencia',
     descricao: 'Essa notificação informa que o rastreador não está no ponto de parada. Quando o rastreador ficar parado por um minuto ou mais a notificação é ativada, quando ele se mover 40 metros ou mais do ponto de parada uma notificação é enviada.',
 });
+exports.notificacoes.set('movimentoIgnicaoDesligada', {
+    titulo: 'O rastreador está em movimento com a ignição desligada.',
+    codigo: 'movimentoIgnicaoDesligada',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador está em movimento com a ignição desligada.',
+});
 exports.notificacoes.set('sleepModeEnter', {
     titulo: 'O rastreador entrou no modo de sono profundo, hibernou.',
     codigo: 'sleepModeEnter',
