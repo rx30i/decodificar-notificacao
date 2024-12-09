@@ -41,7 +41,7 @@ export type CodigoNotificacao =
   |'saida3Inativa'
   |'desbloqueado'
   |'bloqueado'
-  |'problemaGPS'
+  |'gpsComProblema'
   |'entrouCerca'
   |'saiuCerca'
   |'movimento'
