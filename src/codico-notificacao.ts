@@ -8,6 +8,8 @@ export type CodigoNotificacao =
   |'bateriaBackupRecarregada'
   |'tensaoBateriaExternaAlta'
   |'tensaoBateriaExternaNormal'
+  |'tensaoBateriaInternaAlta'
+  |'tensaoBateriaInternaNormal'
   |'antenaGpsDesconectada'
   |'antenaGpsReconectada'
   |'bateriaBackupComErro'
