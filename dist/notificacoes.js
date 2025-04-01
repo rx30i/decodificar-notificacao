@@ -296,4 +296,40 @@ exports.notificacoes.set('freadaBrusca', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que o condutor freou bruscamente o veículo.',
 });
+exports.notificacoes.set('veiculoTombou', {
+    titulo: 'Veiculo tombou',
+    codigo: 'veiculoTombou',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o veículo tombou.',
+});
+exports.notificacoes.set('veiculoCapotou', {
+    titulo: 'Veiculo capotou',
+    codigo: 'veiculoCapotou',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o veículo capotou.',
+});
+exports.notificacoes.set('tensaoBateriaExternaAlta', {
+    titulo: 'Tensão bateria externa alta',
+    codigo: 'tensaoBateriaExternaAlta',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a tensão da bateria externa está acima do aceitável pelo rastreador.',
+});
+exports.notificacoes.set('tensaoBateriaExternaNormal', {
+    titulo: 'Tensão bateria externa normalizou',
+    codigo: 'tensaoBateriaExternaNormal',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a tensão da bateria externa que antes estava acima do suportado normalizou.',
+});
+exports.notificacoes.set('tensaoBateriaInternaAlta', {
+    titulo: 'Tensão bateria interna alta',
+    codigo: 'tensaoBateriaInternaAlta',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a tensão da bateria do rastreador está alta.',
+});
+exports.notificacoes.set('tensaoBateriaInternaNormal', {
+    titulo: 'Tensão bateria interna normalizou',
+    codigo: 'tensaoBateriaInternaNormal',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a tensão da bateria do rastreador normalizou.',
+});
 //# sourceMappingURL=notificacoes.js.map
