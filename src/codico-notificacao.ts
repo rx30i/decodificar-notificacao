@@ -5,6 +5,7 @@ export type CodigoNotificacao =
   |'movimentoIgnicaoDesligada'
   |'bateriaBackupDesconectada'
   |'bateriaBackupConectada'
+  |'bateriaBackupRecarregada'
   |'antenaGpsDesconectada'
   |'antenaGpsReconectada'
   |'bateriaBackupComErro'

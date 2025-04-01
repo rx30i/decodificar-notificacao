@@ -62,6 +62,12 @@ exports.notificacoes.set('bateriaBackupConectada', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que o rastreador foi conectado a bateria de backup, o rastreador tem uma bateria interna, uma bateria própria, essa é a bateria de backup.',
 });
+exports.notificacoes.set('bateriaBackupRecarregada', {
+    titulo: 'Bateria interna do rastreador recarregada.',
+    codigo: 'bateriaBackupRecarregada',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que a bateria interna do rastreador foi recarregada.',
+});
 exports.notificacoes.set('bateriaVeiculoBaixa', {
     titulo: 'A bateria do veículo está baixa, o rastreador irá hibernar.',
     codigo: 'bateriaVeiculoBaixa',
