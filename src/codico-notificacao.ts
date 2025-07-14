@@ -6,6 +6,8 @@ export type CodigoNotificacao =
   |'bateriaBackupDesconectada'
   |'bateriaBackupConectada'
   |'bateriaBackupRecarregada'
+  |'conectadoBateriaExterna'
+  |'desconectadoBateriaExterna'
   |'tensaoBateriaExternaAlta'
   |'tensaoBateriaExternaNormal'
   |'tensaoBateriaInternaAlta'

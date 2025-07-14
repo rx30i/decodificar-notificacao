@@ -332,4 +332,16 @@ exports.notificacoes.set('tensaoBateriaInternaNormal', {
     categoria: 'aviso',
     descricao: 'Essa notificação informa que a tensão da bateria do rastreador normalizou.',
 });
+exports.notificacoes.set('conectadoBateriaExterna', {
+    titulo: 'Conectado a fonte de alimentação externa',
+    codigo: 'conectadoBateriaExterna',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador foi conectado a uma fonte de alimentação externa.',
+});
+exports.notificacoes.set('desconectadoBateriaExterna', {
+    titulo: 'Desconectado da fonte de alimentação externa',
+    codigo: 'desconectadoBateriaExterna',
+    categoria: 'aviso',
+    descricao: 'Essa notificação informa que o rastreador foi desconectado da fonte de alimentação externa.',
+});
 //# sourceMappingURL=notificacoes.js.map
