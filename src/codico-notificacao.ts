@@ -51,6 +51,7 @@ export type CodigoNotificacao =
   |'gpsComProblema'
   |'veiculoTombou'
   |'veiculoCapotou'
+  |'envioHorimetro'
   |'entrouCerca'
   |'saiuCerca'
   |'movimento'

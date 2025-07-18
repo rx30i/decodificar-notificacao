@@ -401,3 +401,10 @@ notificacoes.set('desconectadoBateriaExterna', {
   categoria: 'aviso',
   descricao: 'Essa notificação informa que o rastreador foi desconectado da fonte de alimentação externa.',
 });
+
+notificacoes.set('envioHorimetro', {
+  titulo   : 'Informa o valor atual do horímetro',
+  codigo   : 'envioHorimetro',
+  categoria: 'aviso',
+  descricao: 'Essa notificação é usada pelo rastreador para informar o valor atual do horímetro.',
+});
